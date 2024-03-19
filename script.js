@@ -53,6 +53,11 @@ document.addEventListener("DOMContentLoaded", function () {
         displayDog(currentBreed);
     });
 
+    document.getElementById('reset').addEventListener('click', function (event) {
+        event.preventDefault();
+        window.location.href = '/';
+    });
+
     function displayDog(breed) {
         const selectedBreed = breed ? breed : dogBreeds[Math.floor(Math.random() * dogBreeds.length)];
 
@@ -68,6 +73,6 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .catch(error => console.error('Error loading dog image:', error));
     }
-    
+
     updateRecords();
 });
