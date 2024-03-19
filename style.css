@@ -106,6 +106,40 @@ button:active {
     font-weight: 600;
 }
 
+.botoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#reset {
+    background-color: rgb(200, 85, 85);
+}
+
+#reset:hover {
+    background-color: rgb(134, 0, 0);
+    transition: 0.5s;
+}
+
+#new-image-btn {
+    background-color: rgb(165, 193, 245);
+    flex-basis: 200px
+}
+
+#new-image-btn:hover {
+    background-color: rgb(15, 82, 207);
+    transition: 0.5s;
+}
+
+#submit-btn {
+    background-color: rgb(175, 252, 175);
+    flex-basis: 200px;
+}
+
+#submit-btn:hover {
+    background-color: green;
+    transition: 0.5s;
+}
+
 
 @media screen and (max-width: 768px) {
     .container {
