@@ -58,9 +58,10 @@ main {
 
 .dicas {
     margin: 20px;
-    height: 100%;
+    height: 60%;
     text-align: center;
     font-size: 24px;
+    border: 1px red solid;
 }
 
 .form-animal::placeholder {
@@ -104,4 +105,49 @@ button:active {
 .recorde {
     color: green;
     font-weight: 600;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .adivinhe {
+        margin: 10px 0;
+    }
+
+    .como-jogar {
+        display: none;
+    }
+
+    .dicas {
+        margin: 10px 0;
+    }
+
+    .form-animal {
+        width: 100%;
+        height: 40px;
+        margin: 5px 0;
+    }
+
+    #dog-image {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    button {
+        margin: 5px 0;
+    }
 }
