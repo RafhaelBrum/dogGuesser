@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     position: relative;
     background-color: rgb(24, 55, 73);
@@ -86,10 +85,8 @@ main {
 button {
     border: 3px solid rgba(255, 255, 255, 0.15);
     padding: 10px 20px;
-    font-size: 12px;
-    font-weight: 700;
+    font-weight: 900;
     font-family: Courier, monospace;
-    color: #000000;
     border-radius: 5px;
     transition: all ease 0.1s;
     box-shadow: 0px 5px 0px 0px rgba(5, 95, 5, 0.45);
@@ -139,7 +136,6 @@ button:active {
     background-color: green;
     transition: 0.5s;
 }
-
 
 @media screen and (max-width: 768px) {
     .container {
