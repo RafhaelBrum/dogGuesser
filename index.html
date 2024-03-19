@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Guesser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="logo">Dog Guesser</div>
+
+            <div class="dicas">
+                <div class="image-container">
+                    <img src="" alt="Dog Image" id="dog-image">
+                </div>
+                <p id="dog-origin"></p>
+            </div>
+            <div class="adivinhe">
+                <form id="guess-form">
+                    <input class="form-animal" type="text" list="dog-breeds-list"
+                        placeholder="Digite a raça do cachorro...">
+                    <datalist id="dog-breeds-list"></datalist>
+                    <button type="submit" id="submit-btn">Tentar resposta</button>
+                </form>
+            </div>
+
+
+            <div class="como-jogar">
+                <h1>(?) Como jogar</h1><br>
+                <p>Descubra a raça do cachorro pela imagem e origem.</p>
+                <p>Você pode tentar quantas vezes precisar.</p><br>
+                <p>ATENÇÃO: Ao atualizar a página será gerada outra raça.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

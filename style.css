@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    position: relative;
+    background-color: rgb(24, 55, 73);
+    color: white;
+    font-weight: 500;
+    font-family: Courier, monospace;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    width: 33.33%;
+    height: 90%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    border: green 1px solid;
+}
+
+.logo {
+    margin: 20px;
+    height: 5%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.adivinhe {
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 10%;
+    text-align: center;
+}
+
+.como-jogar {
+    margin: 20px;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.432);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.dicas {
+    margin: 20px;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.form-animal::placeholder {
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.form-animal {
+    width: 90%;
+    height: 45px;
+    margin: 10px;
+    background-color: rgba(161, 196, 199, 0.849);
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+
+#dog-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+button {
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Courier, monospace;
+    color: #000000;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px rgba(5, 95, 5, 0.45);
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px rgba(5, 95, 5, 0.45);
+}
