@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById('reset').addEventListener('click', function (event) {
         event.preventDefault();
-        window.location.href = '/dogGuesser/';
+        window.location.reload();
     });
 
     function displayDog(breed) {
