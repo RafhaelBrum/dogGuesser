@@ -68,6 +68,6 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .catch(error => console.error('Error loading dog image:', error));
     }
-
+    
     updateRecords();
 });
