@@ -17,24 +17,31 @@
             <div class="dicas">
                 <div class="image-container">
                     <img src="" alt="Dog Image" id="dog-image">
+
                 </div>
-                <p id="dog-origin"></p>
+                <p id="dog-origin">
+                <div id="records">
+                    <p class="recorde">Recorde: <span id="max-record">0</span></p>
+                    <p>Streak atual: <span id="current-record">0</span></p>
+                </div>
+                </p>
             </div>
             <div class="adivinhe">
                 <form id="guess-form">
                     <input class="form-animal" type="text" list="dog-breeds-list"
                         placeholder="Digite a raça do cachorro...">
                     <datalist id="dog-breeds-list"></datalist>
-                    <button type="submit" id="submit-btn">Tentar resposta</button>
+                    <button id="new-image-btn">Nova Imagem</button>
+                    <button type="submit" id="submit-btn">Enviar resposta</button>
                 </form>
             </div>
 
 
             <div class="como-jogar">
-                <h1>(?) Como jogar</h1><br>
+                <h2>(?) Como jogar</h2><br>
                 <p>Descubra a raça do cachorro pela imagem e origem.</p>
-                <p>Você pode tentar quantas vezes precisar.</p><br>
-                <p>ATENÇÃO: Ao atualizar a página será gerada outra raça.</p>
+                <p>O botão "Nova Imagem" gera uma nova imagem da mesma raça.</p><br>
+                <p>ATENÇÃO: Ao atualizar a página será gerada outra raça e o streak atual será perdido.</p>
             </div>
         </div>
     </main>
